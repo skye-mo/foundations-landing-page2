@@ -10,11 +10,13 @@ body {
 
 .header {
     display: flex;
+    justify-content: space-between;
 }
 
 .header-links {
     display: flex;
     flex-direction: row;
+    gap: 16px;
 }
 
 ul {
