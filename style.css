@@ -37,9 +37,16 @@ ul {
 
 .description {
     display: flex;
+    flex: 1;
+    margin: auto;
 }
 
 .sign-up {
     display: flex;
     flex-direction: column;
+}
+
+img,
+.sign-up {
+    max-width: 400px;
 }
