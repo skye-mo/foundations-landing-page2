@@ -23,6 +23,7 @@ body {
 .header-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 16px;
     font-size: 18px;
     color: #E5E7EB;
@@ -42,6 +43,7 @@ ul {
     flex: 1;
     margin: auto;
     gap: 10px;
+    flex-wrap: wrap;
 }
 
 .main-text {
@@ -58,7 +60,9 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    gap: 10px;
     min-width: 250px;
+    padding: 10px;
 }
 
 img,
