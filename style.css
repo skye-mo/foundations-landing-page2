@@ -27,7 +27,6 @@ body {
 
 .header-logo
 {
-    color: #F9FAF8;
     font-size: 24px;
 }
 
@@ -41,6 +40,16 @@ ul {
     margin: auto;
 }
 
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .sign-up {
     display: flex;
     flex-direction: column;
@@ -49,4 +58,9 @@ ul {
 img,
 .sign-up {
     max-width: 400px;
+}
+
+.header-logo,
+.main-text {
+    color: #F9FAF8;
 }
