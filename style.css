@@ -25,12 +25,15 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
-.header-logo
-{
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-logo {
     font-size: 24px;
 }
 
