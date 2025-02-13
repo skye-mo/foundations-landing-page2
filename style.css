@@ -54,6 +54,8 @@ ul {
 .sign-up {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    min-width: 250px;
 }
 
 img,
