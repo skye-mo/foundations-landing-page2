@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     background-color: #1F2937;
     padding: 0 120px;
+    padding-bottom: 120px;
 }
 
 .header {
@@ -63,4 +64,15 @@ img,
 .header-logo,
 .main-text {
     color: #F9FAF8;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    flex-basis: 0;
+    align-self: flex-start;
+    border-radius: 6px;
+    border: none;
 }
