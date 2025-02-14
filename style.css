@@ -5,6 +5,8 @@ body {
     margin: 0px;
 }
 
+/* HEADER */
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -20,11 +22,19 @@ body {
     margin-bottom: 60px;
 }
 
+.header-logo {
+    font-size: 24px;
+}
+
 .header-links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 16px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 a {
@@ -33,20 +43,21 @@ a {
     font-size: 18px;
 }
 
-.header-logo {
-    font-size: 24px;
-}
-
-ul {
-    list-style-type: none;
-}
-
 .description {
     display: flex;
     flex: 1;
     margin: auto;
     gap: 10px;
     flex-wrap: wrap;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+    min-width: 250px;
+    padding: 10px;
 }
 
 .main-text {
@@ -59,13 +70,15 @@ ul {
     color: #E5E7EB;
 }
 
-.sign-up {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    gap: 10px;
-    min-width: 250px;
-    padding: 10px;
+button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+    padding: 5px 20px;
+    flex-basis: 0;
+    align-self: flex-start;
+    border-radius: 6px;
+    border: none;
 }
 
 img,
@@ -78,13 +91,10 @@ img,
     color: #F9FAF8;
 }
 
-button {
-    background-color: #3882F6;
-    color: white;
-    font-weight: bold;
-    padding: 5px 20px;
-    flex-basis: 0;
-    align-self: flex-start;
-    border-radius: 6px;
-    border: none;
-}
+/* INFO */
+
+/* QUOTE */
+
+/* CALL TO ACTION */
+
+/* FOOTER */
