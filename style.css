@@ -93,6 +93,15 @@ img,
 
 /* INFO */
 
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    display: flex;
+}
+
 /* QUOTE */
 
 /* CALL TO ACTION */
