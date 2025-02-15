@@ -96,10 +96,12 @@ img,
 .info-container {
     display: flex;
     flex-direction: column;
+    padding: 50px 120px;
 }
 
 .boxes {
     display: flex;
+    justify-content: space-around;
 }
 
 .box-img,
