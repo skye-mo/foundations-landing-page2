@@ -153,4 +153,13 @@ img,
 
 /* CALL TO ACTION */
 
+.call-container {
+    background-color: #3882F6;
+    display: flex;
+}
+
+.button-white-border {
+    border: 2px solid white;
+}
+
 /* FOOTER */
