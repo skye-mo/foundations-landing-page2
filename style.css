@@ -155,16 +155,12 @@ img,
 
 .call-container {
     display: flex;
-    padding: 50px 120px;
-    margin: auto;
-}
-
-.call-box {
-    display: flex;
+    margin: 50px 120px;
     padding: 30px 70px;
     background-color: #3882F6;
     border-radius: 6px;
-    gap: 30px;
+    justify-content: space-between;
+    align-items: stretch;
 }
 
 .call-text {
