@@ -181,3 +181,11 @@ img,
 }
 
 /* FOOTER */
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    flex-direction: flex-end;
+    padding: 20px 120px;
+    text-align: center;
+}
