@@ -161,6 +161,7 @@ img,
     border-radius: 6px;
     justify-content: space-between;
     align-items: stretch;
+    flex-wrap: wrap;
 }
 
 .call-text {
@@ -175,6 +176,8 @@ img,
 
 .button-white-border {
     border: 2px solid white;
+    white-space: nowrap;
+    align-self: center;
 }
 
 /* FOOTER */
