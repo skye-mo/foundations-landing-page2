@@ -99,6 +99,14 @@ img,
     padding: 50px 120px;
 }
 
+.random-title {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
 .boxes {
     display: flex;
     justify-content: space-around;
