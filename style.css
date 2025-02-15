@@ -110,6 +110,7 @@ img,
 .boxes {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .box-img {
