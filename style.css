@@ -154,8 +154,27 @@ img,
 /* CALL TO ACTION */
 
 .call-container {
-    background-color: #3882F6;
     display: flex;
+    padding: 50px 120px;
+    margin: auto;
+}
+
+.call-box {
+    display: flex;
+    padding: 30px 70px;
+    background-color: #3882F6;
+    border-radius: 6px;
+    gap: 30px;
+}
+
+.call-text {
+    color: white;
+}
+
+.call-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
 }
 
 .button-white-border {
