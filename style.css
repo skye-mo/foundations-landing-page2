@@ -102,6 +102,12 @@ img,
     display: flex;
 }
 
+.box-img,
+.box-subtext {
+    display: flex;
+    max-width: 150px;
+}
+
 /* QUOTE */
 
 /* CALL TO ACTION */
